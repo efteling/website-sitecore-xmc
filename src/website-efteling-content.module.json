@@ -1,0 +1,19 @@
+{
+    "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace": "Efteling.Content",
+    "items": {
+        "includes": [
+           
+            {
+                "name": "contentRoot",
+                "path": "/sitecore/content/efteling",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "images",
+                "path": "/sitecore/media library/Project/efteling",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            }
+        ]
+    }
+}

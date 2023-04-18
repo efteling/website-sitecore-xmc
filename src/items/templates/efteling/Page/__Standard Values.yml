@@ -1,0 +1,40 @@
+﻿---
+ID: "f0b6b8ee-b4c4-486d-8315-3230576d52c4"
+Parent: "2449942d-e566-4789-a5e4-d7e78d042294"
+Template: "2449942d-e566-4789-a5e4-d7e78d042294"
+Path: /sitecore/templates/Project/efteling/Page/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {2449942D-E566-4789-A5E4-D7E78D042294}
+    {C14B6289-8AC2-439C-9E5B-40DE9F820C3F}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230417T122013Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\mbos@efteling.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mbos@efteling.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ca39f463-3c79-4d2d-9ac6-0f60aabf123c"
+    - ID: "9f420e08-8d47-49bb-88c3-328cc9086e42"
+      Hint: Title
+      Value: $name
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mbos@efteling.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230417T122023Z

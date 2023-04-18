@@ -1,0 +1,93 @@
+﻿---
+ID: "cdf6aba6-9d03-4f6d-a692-80be69c57d77"
+Parent: "d73efede-c421-4933-b51b-051f6643a4b3"
+Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
+Path: /sitecore/content/efteling/efteling/Presentation/Partial Designs/Footer
+BranchID: "8204a950-cbaa-4d06-878b-11ced5ddc1ad"
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: footer
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{F696A165-E657-4C81-A7EB-04BCCF248EC6}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7bA0868049-E434-4535-98AD-DED3168F64F6%7d%7c%7bDE17C04D-F65D-4FF9-B96E-FC87DEA7A5CD%7d%7c%7bDF443424-6249-46E9-9298-5FC89123F850%7d%7c%7b8B87C44E-9670-403A-81F3-A981196F0BC5%7d%7c%7b61DFD7F7-CF25-43E7-ADB6-3E00ADE6B9D5%7d%7c%7b34F9ACC7-3DA9-477B-A13D-0189328081F2%7d%7c%7b7B51F9C5-3363-477D-AE2A-04E8C67ABD9B%7d%7c%7b5BDBC9EE-8947-4876-BAA0-17EC5B0E7108%7d%7c%7bD8B47A01-4D93-4BBD-B70C-3C8729B14A81%7d%7c%7b660D3714-EDF8-4D38-BB9F-8648FD7486AD%7d%7c%7b9F6FDEBE-0383-4B3A-97DF-B177DE035D16%7d%7c%7b01A33EC4-EB4B-49A9-9E67-767DD0B976FB%7d%7c%7b0C2F4C5E-A2EA-48F6-8E1D-546448490136%7d%7c%7bD074D7B5-3D1E-4A4D-A5AF-DDE40E127865%7d%7c%7b05C673A3-1512-4999-8A74-087CC175EEE7%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-footer" />
+        <r
+          uid="{937F2B46-F85E-4E8F-B18C-666DD877E5FD}"
+          p:after="r[@uid='{F696A165-E657-4C81-A7EB-04BCCF248EC6}']"
+          s:ds="local:/Data/Address"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?Styles=%7b4F36216B-933B-46CF-8A89-2E3402DB09D1%7d&amp;FieldNames=%7b1BA2ECD7-AF8C-4019-B8B1-675085C72A07%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b31A49E90-E4B4-4F04-A3C7-E15B6835990F%7d"
+          s:ph="/headless-footer/container-1" />
+        <r
+          uid="{0E69322B-52B1-457C-9C82-983239A47C6E}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Contact info"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?Styles=%7b4F36216B-933B-46CF-8A89-2E3402DB09D1%7d&amp;FieldNames=%7b1BA2ECD7-AF8C-4019-B8B1-675085C72A07%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b31A49E90-E4B4-4F04-A3C7-E15B6835990F%7d"
+          s:ph="/headless-footer/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{EDB00EAA-5ACA-4C4D-8B88-3195D992F980}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230417T122102Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\mbos@efteling.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mbos@efteling.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d7e197ac-f978-4342-97ab-075efaf3b463"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mbos@efteling.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230418T111803Z
+- Language: nl
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230418T111352Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\mbos@efteling.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mbos@efteling.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3f16b9b9-d046-4f92-8494-98cde50eaff3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mbos@efteling.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230418T111804Z
