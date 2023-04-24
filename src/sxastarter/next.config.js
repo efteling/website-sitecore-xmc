@@ -22,10 +22,12 @@ const nextConfig = {
   i18n: {
     // These are all the locales you want to support in your application.
     // These should generally match (or at least be a subset of) those in Sitecore.
-    locales: ['en', 'nl', 'de', 'fr'],
+    locales: ['default', 'nl', 'en', 'de', 'fr'],
     // This is the locale that will be used when visiting a non-locale
     // prefixed path e.g. `/styleguide`.
-    defaultLocale: jssConfig.defaultLanguage,
+    // defaultLocale: jssConfig.defaultLanguage,
+    defaultLocale: 'default',
+    localeDetection: false,
   },
   
   // Enable React Strict Mode

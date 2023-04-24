@@ -17,7 +17,17 @@
                 "name": "renderings",
                 "path": "/sitecore/layout/Renderings/Project/efteling",
                 "allowedPushOperations": "CreateUpdateAndDelete"
-            },                        
+            },     
+            {
+                "name": "efteling automation rules definition elements",
+                "path": "/sitecore/system/Settings/Rules/Definitions/Elements/Efteling Automation",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "item saved rule",
+                "path": "/sitecore/system/Settings/Rules/Item Saved/Rules/Ensure name",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            },                   
             {
                 "name": "languages",
                 "path": "/sitecore/system/Languages",

@@ -1,0 +1,81 @@
+﻿---
+ID: "b5db2827-acf6-440b-af35-4766c4d68bcd"
+Parent: "86e2276a-437f-492f-b1b9-cedbb3b9da88"
+Template: "d9bdf22f-6e17-47f3-ab64-49c717ba92da"
+Path: /sitecore/system/Settings/Rules/Item Saved/Rules/Ensure name
+SharedFields:
+- ID: "908ef45d-4940-4b6a-857d-3739ba4acf8f"
+  Hint: Rule
+  Value: |
+    <ruleset>
+      <rule
+        uid="{ED57D8E0-3DB4-4E61-81EC-DEA49DC72531}">
+        <conditions>
+          <or
+            uid="7F78F2B1915741D6A2F76C0740177D8B">
+            <or
+              uid="6A5E572A7A6544FB88EBE45D0414A490">
+              <and
+                uid="E450D2CC22C04F6B8F66F1C4E8FAB93F">
+                <condition
+                  id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}"
+                  uid="64CAA7EAC8724DF9A3FB07EBF92BE2C0"
+                  itemid="{24F5EAD2-2522-4333-8B71-E91B87475C6C}" />
+                <condition
+                  id="{A45DBBAE-F74F-4EFE-BBD5-24395E0AF945}"
+                  uid="B9CB71975DAB4290BC5007E94A75969E" />
+              </and>
+              <condition
+                id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}"
+                uid="26D9BCB0445C4E4380A6673AA89D1C6B"
+                itemid="{730C1699-87A4-4CA7-A9CE-294AD7151F13}" />
+            </or>
+            <condition
+              id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}"
+              uid="10C62EBE6BF64F2686B87D171BF152D1"
+              itemid="{15451229-7534-44EF-815D-D93D6170BFCB}" />
+          </or>
+        </conditions>
+        <actions>
+          <action
+            id="{F75F10C3-FE4B-4A21-A733-46AFAA7217EE}"
+            uid="5B074EF6BF7443BCA5975873CC790432" />
+          <action
+            id="{38D08939-69CC-41AB-A6F5-E97FD001A3A1}"
+            uid="F03ACA7074F8402B8E929E8AF619CABC"
+            MatchPattern="^[A-Za-z0-9*]$"
+            ReplaceWith="a" />
+          <action
+            id="{C75B9A74-1074-42E2-B918-FF78D4242B75}"
+            uid="F41C94D273B9422985805CA1D3DC4FCD"
+            MatchPattern="^[A-Za-z0-9*]$" />
+          <action
+            id="{F75F10C3-FE4B-4A21-A733-46AFAA7217EE}"
+            uid="5D4B7A89376A4C7C897381D94BA7BEFF" />
+          <action
+            id="{820A5B98-B534-499B-B513-EBD93D66925D}"
+            uid="0CDCE2B532A44663A0FF813FDAEEDEAA" />
+        </actions>
+      </rule>
+    </ruleset>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20150303T161103Z
+    - ID: "45cf9130-802a-41be-b3eb-c02f657dcc2e"
+      Hint: Name
+      Value: Ensure name
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "03e57a1a-f589-4649-b0c2-aef9d72f92ed"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mbos@efteling.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230424T094840Z

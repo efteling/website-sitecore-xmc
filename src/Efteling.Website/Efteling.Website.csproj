@@ -11,8 +11,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>XmCloudSXAStarter</RootNamespace>
-    <AssemblyName>XmCloudSXAStarter</AssemblyName>
+    <RootNamespace>Efteling.Website</RootNamespace>
+    <AssemblyName>Efteling.Website</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -65,13 +65,19 @@
     <PackageReference Include="Sitecore.Assemblies.SitecoreHeadlessServicesServer" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Platform.wpp.targets" />
+    <Content Include="App_Config\Include\url.config" />
+    <None Include="Efteling.Website.wpp.targets" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="README.md" />
     <None Include="web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Config\Include\" />
+    <Compile Include="Actions\Lowercase.cs" />
+    <Compile Include="Actions\LowercaseDisplayname.cs" />
+    <Compile Include="Actions\RenamingAction.cs" />
+    <Compile Include="Actions\RenamingDisplayNameAction.cs" />
+    <Compile Include="Actions\ReplaceInvalidCharacters.cs" />
+    <Compile Include="Actions\ReplaceInvalidDisplayNameCharacters.cs" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

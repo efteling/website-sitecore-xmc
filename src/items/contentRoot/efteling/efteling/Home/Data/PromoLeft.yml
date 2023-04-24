@@ -2,7 +2,7 @@
 ID: "8f269cce-3095-4202-bc3d-51a17239e75a"
 Parent: "80f1c4b1-5cb9-46c8-93b0-db217fe3ebe2"
 Template: "dfed4457-d760-457a-bec1-c0dccdc44381"
-Path: /sitecore/content/efteling/efteling/Home/Data/PromoLeft
+Path: /sitecore/content/efteling/efteling/home/Data/PromoLeft
 BranchID: "bf982a12-b7d1-46d0-b750-cb3bc8f89988"
 SharedFields:
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"

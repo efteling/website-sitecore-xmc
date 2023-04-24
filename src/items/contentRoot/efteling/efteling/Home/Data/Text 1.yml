@@ -2,7 +2,7 @@
 ID: "0b8f9fe9-d524-425c-a5bb-34b6c18ba70d"
 Parent: "80f1c4b1-5cb9-46c8-93b0-db217fe3ebe2"
 Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
-Path: /sitecore/content/efteling/efteling/Home/Data/Text 1
+Path: /sitecore/content/efteling/efteling/home/Data/Text 1
 BranchID: "bf982a12-b7d1-46d0-b750-cb3bc8f89988"
 SharedFields:
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
@@ -29,17 +29,19 @@ Languages:
         sitecore\mbos@efteling.com
     - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
       Hint: Text
-      Value: <h4>Providing wholesale product basics to the best skate brands in the world</h4>
+      Value: |
+        <h4>Providing wholesale product basics to the best skate brands in the world</h4>
+        <p><a href="~/link.aspx?_id=1CB39EAECE3E4CC5A0CB7CF1172D774A&amp;_z=z">FAQ</a></p>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "aa56d2c7-cdc7-4cb6-9514-5cd92295b124"
+      Value: "c0b3f2ca-569d-436e-a4cf-b38fad85748c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\mbos@efteling.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230418T085829Z
+      Value: 20230424T070348Z
 - Language: nl
   Versions:
   - Version: 1

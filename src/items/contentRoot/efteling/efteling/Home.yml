@@ -2,7 +2,7 @@
 ID: "24f5ead2-2522-4333-8b71-e91b87475c6c"
 Parent: "542b588a-502e-494d-93bf-2fb2ec311d9d"
 Template: "2449942d-e566-4789-a5e4-d7e78d042294"
-Path: /sitecore/content/efteling/efteling/Home
+Path: /sitecore/content/efteling/efteling/home
 BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
 SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
@@ -113,7 +113,7 @@ Languages:
         sitecore\mbos@efteling.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9d3974c5-55e0-461e-b051-ab986a3c23e8"
+      Value: "e4989a49-651e-401e-856f-dde851a27077"
     - ID: "9f420e08-8d47-49bb-88c3-328cc9086e42"
       Hint: Title
       Value: Home
@@ -123,7 +123,7 @@ Languages:
         sitecore\mbos@efteling.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230418T093132Z
+      Value: 20230424T070418Z
 - Language: nl
   Versions:
   - Version: 1
@@ -151,10 +151,18 @@ Languages:
               uid="{B34BBAEC-C12D-4C2B-B5C4-CCC10F68F874}"
               s:par="Styles={E358B14F-2E96-4C4C-A720-CA1DDB6630E9}&amp;FieldNames={1BA2ECD7-AF8C-4019-B8B1-675085C72A07}&amp;GridParameters={7465D855-992E-4DC2-9855-A03250DFA74B}|{959FDFBB-4691-4A17-816F-7A5330B8216A}|{271DE3B1-089F-4977-95EC-B5E51446FC01}|{1B189E02-FFC9-4ADC-84E5-D2AB5F6EC0FB}" />
             <r
-              uid="{BD5B0769-04BB-4BBA-87E1-53B75F4FEDE1}"
-              s:par="Styles={701EA0FA-AC95-4092-B836-17531CC41FEC}&amp;FieldNames={CD18AFBA-A213-43E8-A58F-69695A335409}&amp;GridParameters={7465D855-992E-4DC2-9855-A03250DFA74B}|{81225C08-5783-4BED-A86A-AB2B87198885}|{41E4B2ED-E813-46F9-8455-C26C88E78D47}|{1D84575C-B71C-40B2-BE7E-65503BCD666E}" />
+              uid="{B34E18EF-DD67-438B-9EAE-DB1645A724EF}"
+              p:after="r[@uid='{B34BBAEC-C12D-4C2B-B5C4-CCC10F68F874}']"
+              s:ds="local:/Data/Text 3"
+              s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+              s:par="GridParameters={7465D855-992E-4DC2-9855-A03250DFA74B}&amp;FieldNames={1BA2ECD7-AF8C-4019-B8B1-675085C72A07}&amp;Styles=&amp;CacheClearingBehavior=Clear on publish&amp;RenderingIdentifier=&amp;CSSStyles=&amp;DynamicPlaceholderId=3"
+              s:ph="/headless-main/container-1" />
             <r
               uid="{CC35C4BA-CBF8-4C9C-A015-BB8D8B680D55}"
+              s:par="Styles={701EA0FA-AC95-4092-B836-17531CC41FEC}&amp;FieldNames={CD18AFBA-A213-43E8-A58F-69695A335409}&amp;GridParameters={7465D855-992E-4DC2-9855-A03250DFA74B}|{81225C08-5783-4BED-A86A-AB2B87198885}|{41E4B2ED-E813-46F9-8455-C26C88E78D47}|{1D84575C-B71C-40B2-BE7E-65503BCD666E}" />
+            <r
+              uid="{BD5B0769-04BB-4BBA-87E1-53B75F4FEDE1}"
+              p:after="*[1=2]"
               s:par="Styles={701EA0FA-AC95-4092-B836-17531CC41FEC}&amp;FieldNames={CD18AFBA-A213-43E8-A58F-69695A335409}&amp;GridParameters={7465D855-992E-4DC2-9855-A03250DFA74B}|{81225C08-5783-4BED-A86A-AB2B87198885}|{41E4B2ED-E813-46F9-8455-C26C88E78D47}|{1D84575C-B71C-40B2-BE7E-65503BCD666E}" />
           </d>
         </r>
@@ -174,7 +182,7 @@ Languages:
         sitecore\mbos@efteling.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6cf05d81-e9f8-4dfb-bc8c-b41ae9c7c1c8"
+      Value: "083f17bf-67d7-4a77-b8e3-476b4f994c37"
     - ID: "9f420e08-8d47-49bb-88c3-328cc9086e42"
       Hint: Title
       Value: Home
@@ -184,4 +192,4 @@ Languages:
         sitecore\mbos@efteling.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230418T085813Z
+      Value: 20230421T070906Z

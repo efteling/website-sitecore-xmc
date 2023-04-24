@@ -14,6 +14,9 @@ SharedFields:
 - ID: "6dd8a774-2ce5-4c9e-be7f-1eaf65789956"
   Hint: ThumbnailsRootPath
   Value: /sitecore/media library/Project/efteling/efteling
+- ID: "822cc751-5c96-4a43-b687-ff4786a6eba2"
+  Hint: LinkProvider
+  Value: eftelingProvider
 - ID: "8e0dd914-9afb-4d45-bf8b-7ff5d6e5337e"
   Hint: HostName
   Value: *
@@ -47,11 +50,11 @@ Languages:
         sitecore\mbos@efteling.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "724e2a84-0086-4a42-b43d-60e881cb2c4d"
+      Value: "72a7e7da-136a-48d8-9289-8f3f218a2870"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\mbos@efteling.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230417T122111Z
+      Value: 20230424T074517Z

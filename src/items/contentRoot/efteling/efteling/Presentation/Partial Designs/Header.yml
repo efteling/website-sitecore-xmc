@@ -25,9 +25,11 @@ SharedFields:
         <r
           uid="{EB8C0355-4D6E-4BD1-B828-BF235723D2AE}"
           p:after="*[1=2]"
+          s:ds=""
           s:id="{1DEB067F-0BB1-405E-94F5-2ABB537A6160}"
-          s:par="?LevelFrom={1BB88840-5FB3-4353-AD8D-81136F6FF75A}&amp;LevelTo={1BB88840-5FB3-4353-AD8D-81136F6FF75A}&amp;FieldNames=%7b15ADB82E-5FE8-4D56-BEF6-C9CD51211428%7d&amp;AddRoot=1&amp;Styles=%7bB7300E8C-2702-49C7-98A2-A02C0C3B9D94%7d%7c%7bE8D219CB-FA0B-4199-BEE4-7945E5BB300D%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;NavigationRoot=%7b24F5EAD2-2522-4333-8B71-E91B87475C6C%7d"
-          s:ph="headless-header" />
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B15ADB82E-5FE8-4D56-BEF6-C9CD51211428%7D&amp;Styles=%7BB7300E8C-2702-49C7-98A2-A02C0C3B9D94%7D%7C%7BE8D219CB-FA0B-4199-BEE4-7945E5BB300D%7D&amp;NavigationRoot=%7B24F5EAD2-2522-4333-8B71-E91B87475C6C%7D&amp;LevelFrom=%7B1BB88840-5FB3-4353-AD8D-81136F6FF75A%7D&amp;LevelTo=%7BA59325BB-5A27-46F9-8110-9D499715F3BE%7D&amp;Filter&amp;Flattened&amp;AddRoot=1&amp;SerializerFieldNames&amp;RenderingIdentifier&amp;CSSStyles"
+          s:ph="headless-header"
+          s:ccb="Clear on publish" />
       </d>
     </r>
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
@@ -70,11 +72,11 @@ Languages:
         sitecore\mbos@efteling.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a2499068-da1a-4d8e-9130-a3d2552a9fe0"
+      Value: "56a4111d-1d5a-47b2-a8fc-e0258912e4ee"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\mbos@efteling.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230418T093238Z
+      Value: 20230424T070417Z
